@@ -24,7 +24,6 @@ end
 get '/books/:id' do
   id = params[:id]
   "gits and displays a book with the id: #{id}"
-
 end
 
 get '/books/:id/edit' do
